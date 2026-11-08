@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Personal Portfolio of Mushfk Mahdi Shiam - 2nd Semester Software Engineering Student at Daffodil International University (DIU). Aspiring Software Engineer learning C, Python, and Web Development.">
+    <meta name="author" content="Mushfk Mahdi Shiam">
+    <title>Mushfk Mahdi Shiam | Aspiring Software Engineer</title>
+    
+    <!-- Favicon (Inline SVG Code Icon - No external icon file required) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%23070a12'/><text x='50%25' y='65%25' font-family='monospace' font-weight='800' font-size='52' fill='%2338bdf8' text-anchor='middle'>&lt;/&gt;</text></svg>">
+    
+    <!-- Mobile Browser Theme Color -->
+    <meta name="theme-color" content="#070a12">
+    <meta name="color-scheme" content="dark">
+
+    <!-- Open Graph Meta Tags (for social media link sharing on LinkedIn, Facebook, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mushfk Mahdi Shiam | Aspiring Software Engineer">
+    <meta property="og:description" content="Software Engineering Undergraduate (2nd Semester) at Daffodil International University (DIU). Focusing on C, Python, and Web Development.">
+    <meta property="og:image" content="assets/siam.png">
+    
+    <!-- Google Fonts Preconnect & Stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Main Stylesheet (Pure CSS3) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==============================================
+         1. NAVBAR
+         ============================================== -->
+    <header class="site-header" id="header">
+        <div class="nav-container">
+            <!-- Brand Logo -->
+            <a href="#home" class="nav-brand" aria-label="Home">
+                <span class="logo-symbol">&lt;</span>
+                <span class="logo-name">Mushfk</span>
+                <span class="logo-highlight">.dev</span>
+                <span class="logo-symbol">/&gt;</span>
+            </a>
+
+            <!-- Pure CSS Mobile Toggle Checkbox (No JavaScript needed) -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </label>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#journey" class="nav-link">Journey</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link nav-cta-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ==============================================
+             2. HERO SECTION
+             ============================================== -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <!-- Left: Hero Text Content -->
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="status-indicator"></span>
+                        <span>2nd Semester &bull; Software Engineering Student @ DIU</span>
+                    </div>
+
+                    <p class="hero-greeting">Hello, World! I am</p>
+                    <h1 class="hero-name">Mushfk Mahdi <span class="gradient-text">Shiam</span></h1>
+                    <h2 class="hero-title">Aspiring Software Engineer</h2>
+
+                    <p class="hero-description">
+                        A passionate Software Engineering student at <strong>Daffodil International University (DIU)</strong>, 
+                        deeply immersed in the world of computer programming and modern web development. 
+                        Focused on building strong computer science fundamentals and crafting elegant, useful applications.
+                    </p>
+
+                    <!-- Quick Highlights Badges -->
+                    <div class="hero-tags">
+                        <span class="tag-pill">🌱 Beginner Learner</span>
+                        <span class="tag-pill">💻 C &amp; Python</span>
+                        <span class="tag-pill">🎨 HTML5 &amp; CSS3</span>
+                        <span class="tag-pill">🎯 DIU Undergraduate</span>
+                    </div>
+
+                    <!-- Call To Action Buttons -->
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore My Work</span>
+                            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Contact Me</span>
+                            <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right: Developer Portrait with siam.png, glowing aura and tech chips -->
+                <div class="hero-visual">
+                    <div class="hero-portrait-wrapper">
+                        <!-- Ambient Backdrop Aura -->
+                        <div class="hero-aura"></div>
+                        <div class="hero-glow-ring"></div>
+
+                        <!-- Main Portrait Card -->
+                        <div class="hero-portrait-card">
+                            <div class="hero-img-box">
+                                <img src="assets/siam.png" alt="Mushfk Mahdi Shiam - Aspiring Software Engineer" class="hero-portrait-img">
+                            </div>
+
+                            <!-- Glassmorphism Status Ribbon -->
+                            <div class="portrait-glass-ribbon">
+                                <span class="status-indicator"></span>
+                                <div class="ribbon-text">
+                                    <span class="ribbon-name">Mushfk Mahdi Shiam</span>
+                                    <span class="ribbon-role">B.Sc. in Software Engineering &bull; DIU</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Skill Chips (safely positioned within bounds) -->
+                        <div class="hero-floating-chip chip-c-python">
+                            <span class="chip-emoji">💻</span>
+                            <div class="chip-text">
+                                <span class="chip-label">Languages</span>
+                                <span class="chip-val">C &amp; Python</span>
+                            </div>
+                        </div>
+
+                        <div class="hero-floating-chip chip-frontend">
+                            <span class="chip-emoji">&lt;/&gt;</span>
+                            <div class="chip-text">
+                                <span class="chip-label">Frontend</span>
+                                <span class="chip-val">HTML5 &amp; CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             3. ABOUT ME SECTION
+             ============================================== -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01. WHO I AM</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <p class="section-subtitle">A glimpse into my background, mindset, and passion for technology</p>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Left: Interactive Terminal / C Code Window -->
+                    <div class="about-media-col">
+                        <div class="terminal-card">
+                            <!-- Terminal Window Header -->
+                            <div class="terminal-header">
+                                <div class="terminal-dots">
+                                    <span class="dot dot-red"></span>
+                                    <span class="dot dot-yellow"></span>
+                                    <span class="dot dot-green"></span>
+                                </div>
+                                <div class="terminal-filename">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                    </svg>
+                                    <span>developer_profile.c</span>
+                                </div>
+                                <div class="terminal-badge">C99</div>
+                            </div>
+
+                            <!-- Code Body with Line Numbers & Syntax Highlighting -->
+                            <div class="terminal-body">
+                                <pre><code><span class="code-line"><span class="line-num">01</span> <span class="syntax-preprocessor">#include</span> <span class="syntax-string">&lt;stdio.h&gt;</span></span>
+<span class="code-line"><span class="line-num">02</span> </span>
+<span class="code-line"><span class="line-num">03</span> <span class="syntax-keyword">struct</span> <span class="syntax-type">Developer</span> {</span>
+<span class="code-line"><span class="line-num">04</span>     <span class="syntax-type">char</span>* name;</span>
+<span class="code-line"><span class="line-num">05</span>     <span class="syntax-type">char</span>* university;</span>
+<span class="code-line"><span class="line-num">06</span>     <span class="syntax-type">char</span>* focus;</span>
+<span class="code-line"><span class="line-num">07</span>     <span class="syntax-type">char</span>* goal;</span>
+<span class="code-line"><span class="line-num">08</span> };</span>
+<span class="code-line"><span class="line-num">09</span> </span>
+<span class="code-line"><span class="line-num">10</span> <span class="syntax-type">int</span> <span class="syntax-func">main</span>() {</span>
+<span class="code-line"><span class="line-num">11</span>     <span class="syntax-keyword">struct</span> <span class="syntax-type">Developer</span> shiam = {</span>
+<span class="code-line"><span class="line-num">12</span>         .<span class="syntax-var">name</span> = <span class="syntax-string">"Mushfk Mahdi Shiam"</span>,</span>
+<span class="code-line"><span class="line-num">13</span>         .<span class="syntax-var">university</span> = <span class="syntax-string">"Daffodil Int. University"</span>,</span>
+<span class="code-line"><span class="line-num">14</span>         .<span class="syntax-var">focus</span> = <span class="syntax-string">"C, Python &amp; Web Dev"</span>,</span>
+<span class="code-line"><span class="line-num">15</span>         .<span class="syntax-var">goal</span> = <span class="syntax-string">"Build real-world apps!"</span></span>
+<span class="code-line"><span class="line-num">16</span>     };</span>
+<span class="code-line"><span class="line-num">17</span>     </span>
+<span class="code-line"><span class="line-num">18</span>     <span class="syntax-func">printf</span>(<span class="syntax-string">"Ready to learn, code &amp; grow!\n"</span>);</span>
+<span class="code-line"><span class="line-num">19</span>     <span class="syntax-keyword">return</span> <span class="syntax-number">0</span>;</span>
+<span class="code-line"><span class="line-num">20</span> }</span></code></pre>
+                            </div>
+
+                            <!-- Terminal Footer Output -->
+                            <div class="terminal-footer">
+                                <span class="console-prompt">&gt; gcc developer_profile.c -o shiam &amp;&amp; ./shiam</span>
+                                <span class="console-output">"Ready to learn, code &amp; grow!"</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Narrative & Highlights -->
+                    <div class="about-text-col">
+                        <h3 class="about-heading">
+                            Building a Strong Foundation in <span class="text-accent">Software Engineering</span>
+                        </h3>
+                        
+                        <p class="about-paragraph">
+                            Hello! My name is <strong>Mushfk Mahdi Shiam</strong>. I am currently in my 
+                            <strong>2nd Semester</strong> studying <strong>Software Engineering</strong> at 
+                            <strong>Daffodil International University (DIU)</strong>. As an aspiring software engineer at the 
+                            beginner stage of my university journey, I am driven by intense curiosity about how software powers 
+                            the modern world.
+                        </p>
+
+                        <p class="about-paragraph">
+                            Right now, I spend my time exploring the core foundations of programming. I am actively 
+                            learning structured problem solving with <strong>C</strong>, discovering the flexibility and power of 
+                            <strong>Python</strong>, and mastering frontend design with <strong>HTML5 and CSS3</strong>. 
+                            I believe that great engineers aren't built overnight&mdash;they are shaped by consistent curiosity, 
+                            attention to detail, and a genuine love for solving challenging problems.
+                        </p>
+
+                        <!-- Key Information Grid -->
+                        <div class="info-badges-grid">
+                            <div class="info-box">
+                                <span class="info-label">University</span>
+                                <span class="info-value">Daffodil International University (DIU)</span>
+                            </div>
+                            <div class="info-box">
+                                <span class="info-label">Department</span>
+                                <span class="info-value">Software Engineering</span>
+                            </div>
+                            <div class="info-box">
+                                <span class="info-label">Current Stage</span>
+                                <span class="info-value">2nd Semester (Beginner Level)</span>
+                            </div>
+                            <div class="info-box">
+                                <span class="info-label">Current Focus</span>
+                                <span class="info-value">Web Development, C &amp; Python</span>
+                            </div>
+                            <div class="info-box">
+                                <span class="info-label">Location</span>
+                                <span class="info-value">Dhaka, Bangladesh</span>
+                            </div>
+                            <div class="info-box">
+                                <span class="info-label">Career Objective</span>
+                                <span class="info-value">Professional Software Engineer</span>
+                            </div>
+                        </div>
+
+                        <!-- Mindset Quote -->
+                        <div class="quote-card">
+                            <span class="quote-symbol">&ldquo;</span>
+                            <p class="quote-text">
+                                Focus on understanding how things work beneath the surface. Strong fundamentals lead to exceptional engineering.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             4. SKILLS SECTION
+             ============================================== -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02. TECHNICAL TOOLKIT</span>
+                    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                    <p class="section-subtitle">
+                        An honest snapshot of technologies I am currently learning and practicing as a beginner
+                    </p>
+                </div>
+
+                <!-- Transparency Notice -->
+                <div class="notice-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                    </svg>
+                    <span><strong>Learning in Progress:</strong> I am a 2nd-semester beginner student actively strengthening my fundamentals in these tools rather than claiming professional mastery.</span>
+                </div>
+
+                <!-- Skills Cards Grid -->
+                <div class="skills-grid">
+                    <!-- Skill 1: HTML5 -->
+                    <div class="skill-card">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrapper icon-html">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2L3 5l1.6 14.5L12 22l7.4-2.5L21 5l-9-3zm6 6H9l.2 2.5h8.5l-.7 7.5-4.8 1.6-4.8-1.6-.3-3.5h2.5l.1 1.5 2.5.8 2.5-.8.3-3.2H6.6L6 6h12V8z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-status-tag tag-learning">Currently Learning</span>
+                        </div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <p class="skill-desc">
+                            Structuring accessible, semantic web content using modern HTML elements, clean tags, and proper document hierarchy.
+                        </p>
+                        <div class="skill-topics">
+                            <span class="topic-pill">Semantic Elements</span>
+                            <span class="topic-pill">Forms &amp; Inputs</span>
+                            <span class="topic-pill">Document Tree</span>
+                            <span class="topic-pill">Web Accessibility</span>
+                        </div>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Understanding Foundation</span>
+                                <span>Developing</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill fill-html"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 2: CSS3 -->
+                    <div class="skill-card">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrapper icon-css">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2L3 5l1.6 14.5L12 22l7.4-2.5L21 5l-9-3zm5.7 6.5l-.2 2.5H9.2l.2 2.5h7.8l-.7 7-4.5 1.5-4.5-1.5-.3-3.5h2.5l.1 1.5 2.2.7 2.2-.7.3-3H6.8L6.2 6h11.7l-.2 2.5z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-status-tag tag-learning">Currently Learning</span>
+                        </div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <p class="skill-desc">
+                            Crafting stylish, responsive, and aesthetically pleasing layouts using modern Flexbox, CSS Grid, custom properties, and smooth animations.
+                        </p>
+                        <div class="skill-topics">
+                            <span class="topic-pill">Flexbox &amp; Grid</span>
+                            <span class="topic-pill">Media Queries</span>
+                            <span class="topic-pill">CSS Animations</span>
+                            <span class="topic-pill">Dark Mode UI</span>
+                        </div>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Layouts &amp; Styling</span>
+                                <span>Developing</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill fill-css"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 3: C Programming -->
+                    <div class="skill-card">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrapper icon-c">
+                                <span class="c-lang-badge">C</span>
+                            </div>
+                            <span class="skill-status-tag tag-active">Core University Focus</span>
+                        </div>
+                        <h3 class="skill-name">C Programming</h3>
+                        <p class="skill-desc">
+                            Developing structured algorithmic thinking, understanding memory management, pointer logic, control structures, and computational basics.
+                        </p>
+                        <div class="skill-topics">
+                            <span class="topic-pill">Control Flow &amp; Loops</span>
+                            <span class="topic-pill">Functions &amp; Scope</span>
+                            <span class="topic-pill">Arrays &amp; Strings</span>
+                            <span class="topic-pill">Pointers Basics</span>
+                        </div>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Structured Logic</span>
+                                <span>Active Practice</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill fill-c"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill 4: Python -->
+                    <div class="skill-card">
+                        <div class="skill-card-top">
+                            <div class="skill-icon-wrapper icon-python">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M11.9 2c-3.7 0-3.5 1.6-3.5 1.6l.01 1.7h3.6v.5H4.9s-2.4-.3-2.4 3.5 2.1 3.6 2.1 3.6h1.2v-1.7s-.1-2.1 2.1-2.1h3.6s2-.02 2-2V4s.3-2-3.6-2zm-1 1.1c.3 0 .6.3.6.6s-.3.6-.6.6-.6-.3-.6-.6.3-.6.6-.6zm1.2 18.9c3.7 0 3.5-1.6 3.5-1.6l-.01-1.7H12v-.5h7.1s2.4.3 2.4-3.5-2.1-3.6-2.1-3.6h-1.2v1.7s.1 2.1-2.1 2.1h-3.6s-2 .02-2 2V20s-.3 2 3.6 2zm1-1.1c-.3 0-.6-.3-.6-.6s.3-.6.6-.6.6.3.6.6-.3.6-.6.6z"/>
+                                </svg>
+                            </div>
+                            <span class="skill-status-tag tag-learning">Currently Learning</span>
+                        </div>
+                        <h3 class="skill-name">Python</h3>
+                        <p class="skill-desc">
+                            Exploring readable syntax, writing beginner automation scripts, and practicing foundational problem solving with lists, dictionaries, and functions.
+                        </p>
+                        <div class="skill-topics">
+                            <span class="topic-pill">Core Syntax</span>
+                            <span class="topic-pill">Data Structures</span>
+                            <span class="topic-pill">Scripting Basics</span>
+                            <span class="topic-pill">Algorithm Logic</span>
+                        </div>
+                        <div class="skill-progress-wrap">
+                            <div class="progress-info">
+                                <span>Syntax &amp; Concepts</span>
+                                <span>Developing</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill fill-python"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             5. EDUCATION SECTION
+             ============================================== -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03. ACADEMIC BACKGROUND</span>
+                    <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+                    <p class="section-subtitle">Formal computer science and engineering coursework shaping my career</p>
+                </div>
+
+                <div class="education-card-wrapper">
+                    <div class="education-card">
+                        <!-- University Banner / Logo Area with Online Campus Image -->
+                        <div class="edu-media">
+                            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" 
+                                 alt="University Education and Campus Learning" 
+                                 class="edu-img" 
+                                 loading="lazy">
+                            <div class="edu-status-chip">
+                                <span class="pulse-dot"></span>
+                                <span>Active Student</span>
+                            </div>
+                        </div>
+
+                        <!-- Educational Details -->
+                        <div class="edu-details">
+                            <div class="edu-badge-row">
+                                <span class="edu-badge">Undergraduate Degree</span>
+                                <span class="edu-year">Current: 2nd Semester</span>
+                            </div>
+
+                            <h3 class="edu-institution">Daffodil International University (DIU)</h3>
+                            <h4 class="edu-degree">Bachelor of Science in Software Engineering (B.Sc. in SE)</h4>
+
+                            <p class="edu-summary">
+                                Enrolled in the prestigious Department of Software Engineering, focusing on computational principles, 
+                                structured programming, discrete mathematics, and software design principles. 
+                                Actively collaborating with peers and participating in campus technical activities.
+                            </p>
+
+                            <div class="edu-highlights">
+                                <div class="edu-highlight-item">
+                                    <span class="highlight-title">Department:</span>
+                                    <span class="highlight-desc">Software Engineering</span>
+                                </div>
+                                <div class="edu-highlight-item">
+                                    <span class="highlight-title">Current Semester:</span>
+                                    <span class="highlight-desc">2nd Semester</span>
+                                </div>
+                                <div class="edu-highlight-item">
+                                    <span class="highlight-title">Location:</span>
+                                    <span class="highlight-desc">Dhaka, Bangladesh</span>
+                                </div>
+                                <div class="edu-highlight-item">
+                                    <span class="highlight-title">Core Studies:</span>
+                                    <span class="highlight-desc">Structured Programming, Problem Solving, Computer Fundamentals</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             6. MY LEARNING JOURNEY SECTION
+             ============================================== -->
+        <section class="section journey-section" id="journey">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04. PROGRESS &amp; EFFORTS</span>
+                    <h2 class="section-title">My Learning <span class="gradient-text">Journey</span></h2>
+                    <p class="section-subtitle">
+                        A transparent roadmap of how I am building my foundation step by step
+                    </p>
+                </div>
+
+                <div class="journey-grid">
+                    <!-- Step 1 -->
+                    <div class="journey-step-card">
+                        <div class="step-number">01</div>
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Learning Frontend Web Development</h3>
+                        <p class="step-text">
+                            Starting from the basics of HTML5 and CSS3, practicing page layouts, responsive media queries, 
+                            and modern design systems without relying on heavy frameworks.
+                        </p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="journey-step-card">
+                        <div class="step-number">02</div>
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="4 17 10 11 4 5"></polyline>
+                                <line x1="12" y1="19" x2="20" y2="19"></line>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Practicing C Programming</h3>
+                        <p class="step-text">
+                            Writing console programs, learning memory layout, debugging logic errors, 
+                            and grasping structured control flow to understand how computers execute code.
+                        </p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="journey-step-card">
+                        <div class="step-number">03</div>
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M8 12h8"></path>
+                                <path d="M12 8v8"></path>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Exploring Python Programming</h3>
+                        <p class="step-text">
+                            Discovering clean Python syntax, testing out quick utility scripts, and utilizing 
+                            Python's built-in data structures for practical logic development.
+                        </p>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="journey-step-card">
+                        <div class="step-number">04</div>
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Improving Problem-Solving Skills</h3>
+                        <p class="step-text">
+                            Regularly solving computational math problems, practicing algorithmic logic, 
+                            and learning to break complex problems into manageable functions.
+                        </p>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="journey-step-card journey-card-featured">
+                        <div class="step-number">05</div>
+                        <div class="step-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="step-title">Building a Strong SE Foundation</h3>
+                        <p class="step-text">
+                            Absorbing software engineering methodologies, clean code hygiene, version control basics, 
+                            and academic excellence at Daffodil International University.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             7. PROJECTS SECTION
+             ============================================== -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">05. WORK IN PROGRESS</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <p class="section-subtitle">
+                        Authentic beginner projects and active learning prototypes. No fabricated claims.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Personal Portfolio Website -->
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Personal Portfolio Project Preview" 
+                                 class="project-img" 
+                                 loading="lazy">
+                            <span class="project-status-badge status-completed">Completed Milestone</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Responsive UI</span>
+                            </div>
+                            <h3 class="project-title">Personal Portfolio Website</h3>
+                            <p class="project-desc">
+                                A modern, premium dark-themed portfolio designed from scratch using clean semantic HTML5 and custom CSS3. 
+                                Built without external JavaScript or UI frameworks to solidify core styling and layout fundamentals.
+                            </p>
+                            <div class="project-links">
+                                <a href="#home" class="project-link" aria-label="View Current Portfolio">
+                                    <span>Live Preview</span>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                                <a href="https://github.com/your-username/personal-portfolio" class="project-link link-secondary" target="_blank" rel="noopener noreferrer">
+                                    <span>Source Code</span>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Basic C Programming Projects -->
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80" 
+                                 alt="C Programming Terminal Projects" 
+                                 class="project-img" 
+                                 loading="lazy">
+                            <span class="project-status-badge status-progress">In Progress</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">C Language</span>
+                                <span class="tech-tag">Algorithms</span>
+                                <span class="tech-tag">CLI</span>
+                            </div>
+                            <h3 class="project-title">Basic C Programming Projects</h3>
+                            <p class="project-desc">
+                                A suite of beginner console applications including a student grading system, simple calculator, 
+                                and number puzzle game to practice conditional statements, loops, functions, and memory arrays.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/your-username/c-programming-basics" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <span>GitHub Repository</span>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Python Beginner Projects -->
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" 
+                                 alt="Python Code and Automation" 
+                                 class="project-img" 
+                                 loading="lazy">
+                            <span class="project-status-badge status-learning">Learning Concept</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">Python 3</span>
+                                <span class="tech-tag">Automation</span>
+                                <span class="tech-tag">Logic</span>
+                            </div>
+                            <h3 class="project-title">Python Beginner Projects</h3>
+                            <p class="project-desc">
+                                Starter script experiments including a word counter, text-based adventure game, 
+                                and simple data organizer created while mastering Python's standard libraries and control flows.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://github.com/your-username/python-beginner-projects" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <span>GitHub Repository</span>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             8. MY GOALS SECTION
+             ============================================== -->
+        <section class="section goals-section" id="goals">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">06. VISION &amp; ASPIRATIONS</span>
+                    <h2 class="section-title">Where I <span class="gradient-text">Want To Go</span></h2>
+                    <p class="section-subtitle">
+                        My long-term aspirations as an upcoming software engineering professional
+                    </p>
+                </div>
+
+                <div class="goals-grid">
+                    <!-- Goal 1 -->
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="goal-title">Become a Professional Software Engineer</h3>
+                        <p class="goal-desc">
+                            Transition from an enthusiastic student into a dependable, industry-ready software engineer capable of writing production-grade code.
+                        </p>
+                    </div>
+
+                    <!-- Goal 2 -->
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                                <polyline points="17 6 23 6 23 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="goal-title">Sharpen Problem-Solving &amp; Algorithms</h3>
+                        <p class="goal-desc">
+                            Consistently solve algorithmic challenges, master fundamental data structures, and build razor-sharp computational intuition.
+                        </p>
+                    </div>
+
+                    <!-- Goal 3 -->
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="goal-title">Learn Advanced Web Development</h3>
+                        <p class="goal-desc">
+                            Advance into modern JavaScript, backend server architectures, APIs, and modern frameworks to become a versatile full-stack developer.
+                        </p>
+                    </div>
+
+                    <!-- Goal 4 -->
+                    <div class="goal-card">
+                        <div class="goal-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <h3 class="goal-title">Build Real-World Applications</h3>
+                        <p class="goal-desc">
+                            Go beyond classroom theory by shipping applications that solve everyday human problems and deliver genuine practical value.
+                        </p>
+                    </div>
+
+                    <!-- Goal 5 -->
+                    <div class="goal-card goal-card-wide">
+                        <div class="goal-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <h3 class="goal-title">Explore Modern Technologies</h3>
+                        <p class="goal-desc">
+                            Continuously stay updated with emerging tech trends, cloud systems, developer tooling, and modern software design patterns.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================
+             9. CONTACT SECTION
+             ============================================== -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">07. GET IN TOUCH</span>
+                    <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                    <p class="section-subtitle">
+                        Feel free to reach out for study collaborations, mentorship, or exciting technical discussions!
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left: Contact Details & Placeholders -->
+                    <div class="contact-info-col">
+                        <h3 class="contact-subheading">Contact Information</h3>
+                        <p class="contact-text">
+                            I am always eager to learn, connect with fellow software engineering students, 
+                            and receive advice from seasoned developers. You can find me on the channels below:
+                        </p>
+
+                        <div class="contact-cards-list">
+                            <!-- Email Item -->
+                            <a href="mailto:mushfk.shiam.placeholder@diu.edu.bd" class="contact-item-card">
+                                <div class="contact-item-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-details">
+                                    <span class="contact-item-title">Email Address</span>
+                                    <span class="contact-item-value">mushfk.shiam.placeholder@diu.edu.bd</span>
+                                </div>
+                            </a>
+
+                            <!-- LinkedIn Item -->
+                            <a href="https://linkedin.com/in/mushfk-mahdi-shiam-placeholder" target="_blank" rel="noopener noreferrer" class="contact-item-card">
+                                <div class="contact-item-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-details">
+                                    <span class="contact-item-title">LinkedIn Profile</span>
+                                    <span class="contact-item-value">linkedin.com/in/mushfk-mahdi-shiam</span>
+                                </div>
+                            </a>
+
+                            <!-- GitHub Item -->
+                            <a href="https://github.com/mushfk-shiam-placeholder" target="_blank" rel="noopener noreferrer" class="contact-item-card">
+                                <div class="contact-item-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-details">
+                                    <span class="contact-item-title">GitHub Profile</span>
+                                    <span class="contact-item-value">github.com/mushfk-shiam-placeholder</span>
+                                </div>
+                            </a>
+
+                            <!-- University Location -->
+                            <div class="contact-item-card">
+                                <div class="contact-item-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-details">
+                                    <span class="contact-item-title">Campus &amp; Location</span>
+                                    <span class="contact-item-value">Daffodil Smart City, Ashulia, Dhaka, Bangladesh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Pure HTML Form (no JS) -->
+                    <div class="contact-form-col">
+                        <div class="contact-form-wrapper">
+                            <h3 class="form-title">Send Me a Message</h3>
+                            <p class="form-desc">Have a question or want to collaborate? Leave a message below.</p>
+                            
+                            <form action="#" method="post" class="contact-form">
+                                <div class="form-group">
+                                    <label for="contact-name" class="form-label">Your Name</label>
+                                    <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="contact-email" class="form-label">Your Email</label>
+                                    <input type="email" id="contact-email" name="email" class="form-input" placeholder="alex@example.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="contact-subject" class="form-label">Subject</label>
+                                    <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Collaboration / Inquiry" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="contact-message" class="form-label">Your Message</label>
+                                    <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Hello Mushfk, I saw your portfolio and would like to..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-submit">
+                                    <span>Send Message</span>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==============================================
+         10. FOOTER
+         ============================================== -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <!-- Brand Column -->
+            <div class="footer-brand-col">
+                <a href="#home" class="nav-brand footer-brand">
+                    <span class="logo-symbol">&lt;</span>
+                    <span class="logo-name">Mushfk</span>
+                    <span class="logo-highlight">.dev</span>
+                    <span class="logo-symbol">/&gt;</span>
+                </a>
+                <p class="footer-tagline">
+                    Aspiring Software Engineer &amp; 2nd Semester Undergraduate at Daffodil International University.
+                </p>
+            </div>
+
+            <!-- Quick Navigation Links -->
+            <div class="footer-links-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#goals">My Goals</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Action & Copyright Column -->
+            <div class="footer-action-col">
+                <a href="#home" class="back-to-top-btn" aria-label="Back to Top">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="19" x2="12" y2="5"></line>
+                        <polyline points="5 12 12 5 19 12"></polyline>
+                    </svg>
+                    <span>Back to Top</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Copyright Line -->
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p class="copyright-text">
+                    Designed &amp; Built by <strong>Mushfk Mahdi Shiam</strong>
+                </p>
+                <p class="copyright-sub">
+                    &copy; 2026 Mushfk Mahdi Shiam. All rights reserved. &bull; Department of Software Engineering, Daffodil International University (DIU).
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
