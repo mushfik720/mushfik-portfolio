@@ -45,11 +45,11 @@ A modern, attractive, and premium personal portfolio website designed and built 
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/mushfik720/portfolio.git
+   git clone https://github.com/mushfik720/mushfik-portfolio.git
    ```
 2. Navigate to the project folder:
    ```bash
-   cd portfolio
+   cd mushfik-portfolio
    ```
 3. Open `index.html` directly in your favorite web browser (Chrome, Edge, Firefox, Safari).
 
@@ -62,7 +62,7 @@ A modern, attractive, and premium personal portfolio website designed and built 
 3. Under **Branch**, select `main` and click **Save**.
 4. Your website will be live at:
    ```text
-   https://mushfik720.github.io/portfolio/
+   https://mushfik720.github.io/mushfik-portfolio/
    ```
 
 ---
